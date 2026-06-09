@@ -1,0 +1,27 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+.primary {
+  background-color: #3dae2f;
+}
+
+html,
+body,
+#app {
+  margin: 10px;
+  padding: 10px;
+  min-height: 100vh;
+}
