@@ -37,8 +37,6 @@ function validateForm() {
 
   if (!discountName.value.trim()) {
     errorMessage.value.name = "Nama diskon harus diisi.";
-  } else if (discount.value.some((item) => item.name === discountName.value)) {
-    errorMessage.value.name = "Diskon dengan nama tersebut sudah ada.";
   }
 
   if (discountValue.value === null || discountValue.value === undefined) {

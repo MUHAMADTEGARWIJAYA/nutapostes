@@ -14,6 +14,10 @@ p {
   margin: 0;
 }
 
+.primary {
+  background-color: #3dae2f;
+}
+
 html,
 body,
 #app {
